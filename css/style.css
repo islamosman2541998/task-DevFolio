@@ -1,0 +1,696 @@
+
+body {
+    background-color: #F5F5F5;
+    
+}
+nav {
+    z-index:55 ;
+    background-color: rgb(14, 14, 14);
+}
+nav ul li a{
+    color: white !important;
+}
+nav ul li a .active {
+    position: relative;
+}
+.active::before {
+    content: '';
+    
+    position: absolute;
+    width: 45px;
+    height: 2px;
+   background-color: rgb(251, 251, 253);
+   bottom: 5px;
+   
+}
+ nav .falio {
+    font-size: 30px;
+    font-weight: 600;
+ }
+
+ header .home {
+    background: linear-gradient(rgba(16, 16, 16, 0.596), rgba(11, 10, 10, 0.656)), url(/images/hero-bg.jpg);
+  background-size: cover;
+  height: 100vh; 
+  background-position: center center;
+  position: relative;
+    
+ }
+ header .caption {
+   
+    
+    position: absolute;
+    top: 40%;
+    left: 30%;
+   
+    
+
+ }
+ header .caption h1 {
+    color: rgb(254, 252, 252);
+    font-size: 60px;
+    font-weight: 700;
+ }
+
+ header .caption .animation {
+   text-align: center;
+   color: white;
+   font-size: 50px;
+ }
+
+ @media only screen and (max-width : 768px ) {
+   header .caption h1 {
+       font-size: 45px;
+   }
+
+  }
+  @media only screen and (max-width : 768px ) {
+   header .caption .animation {
+       font-size: 30px;
+       margin-right: 130px;
+   }
+
+  }
+
+ 
+
+
+.about {
+    
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about .container  {
+    background-color: white;
+    padding-top: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.112);
+    
+    
+    
+ }
+ .discripition {
+    margin-left:40px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+ }
+ section span {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 5px;
+ }
+ section .skill {
+    padding: 20px 0px;
+ }
+
+ section .skill p {
+    padding-top: 10px;
+ }
+
+ .about-me {
+    padding-top: 15px;
+    padding-left: 50px;
+ }
+ .about-me h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+    position: relative;
+ }
+
+ .about-me h3::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: #0078FF;
+    bottom: 20px;
+   
+}
+.about-me p {
+    font-size: 22px;
+    color: #4E4E4E;
+    font-weight: 100;
+}
+
+
+section .services  {
+   
+}
+.services-heading {
+text-align: center;
+ 
+}
+.services-heading h1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 20px;
+
+}
+.services-heading p {
+    color: #4E4E4E;
+    position: relative;
+}
+.services-heading p::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background-color: #0078FF;
+    top: 50px;
+    margin-left: 170px;
+    
+   
+
+}
+
+.services-card {
+   padding-bottom: 30px;
+   padding-top: 50px;
+  
+   
+}
+
+.cards {
+ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.112);
+}
+
+
+.cards .card-icon {
+   font-size: 35px;
+   width: 120px;
+   height: 120px;
+   border: 10px solid #0078FF;
+   border-radius: 50%;
+  display: inline-block;
+   margin-top: 20px;  
+}
+.cards .card-icon i {
+   padding-top: 30px;
+}
+
+.cards h2 {
+   font-size: 30px;
+   padding-top: 15px;
+   
+}
+.cards .card-icon:hover {
+   border-color: #CDE1F8;
+   background-color: #0078FF;
+}
+.cards .card-icon:hover i {
+   color: #F5F5F5;
+}
+.cards  p {
+   color: #4E4E4E;
+   font-size: 20px;
+   font-weight: 100;
+   padding-bottom: 30px;
+}
+
+
+
+.counter {
+   background: linear-gradient(#0a58b2db,#0e56a7dc), url(/images/counters-bg.jpg);
+   background-size: cover;
+   height: 70vh; 
+   background-position: center center;
+   background-attachment: fixed;
+   overflow: hidden;
+}
+
+.counter .counter-cards {
+  
+   text-align: center;
+   padding-top: 12.5%;
+  
+  
+}
+.counter-cards .counter-icon {
+   font-size: px;
+   width: 90px;
+   height: 90px;
+   border: 11px solid #CDE1F8;
+   border-radius: 50%;
+  display: inline-block;
+   margin-top: 20px; 
+   
+   
+}
+.counter-cards .counter-icon i {
+   margin-top: 20px;
+   font-size: 36px;
+   color: white;
+   
+}
+
+.counter-cards h2 {
+   color: white;
+   padding-top: 15px;
+}
+.counter-cards p {
+   color: white;
+   font-size: 17px;
+}
+
+
+section .portfolio  {
+   background-color:#F5F5F5 ;
+}
+.portfolio-heading {
+text-align: center;
+ 
+}
+.portfolio-heading h1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 20px;
+
+}
+.portfolio-heading p {
+    color: #4E4E4E;
+    position: relative;
+}
+.portfolio-heading p::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background-color: #0078FF;
+    top: 50px;
+    margin-left: 170px;
+    
+   
+
+}
+
+.portfolio-card {
+   padding-top: 40px;
+   
+   
+}
+.portfolio-cards {
+   
+   padding-bottom: 25px;
+   
+
+
+}
+
+.portfolio-card img {
+   width: 100%;
+   
+}
+.portfolio-content {
+   display: flex;
+   justify-content: space-between;
+   padding: 25px 0px;
+   padding-left: 20px;
+
+   background-color:#FFFFFF;
+}
+.content-heading h4 {
+   font-size: 20px;
+}
+
+.content-heading div {
+   display: flex;
+}
+.content-heading div span {
+   font-size: 15px;
+   color: #0078FF;
+}
+.content-heading div p {
+   font-size: 15px;
+
+}
+.content-plus {
+   width: 45px;
+   height: 45px;
+   border: 3px solid #0078FF;
+   border-radius: 50%;
+   text-align: center;
+   margin-right: 15px;
+   
+
+}
+
+.content-plus i {
+   font-size: 30px;
+   color: #0078FF;
+   margin-top: 5px;
+
+}
+
+
+.slider {
+   
+  text-align: center;
+}
+
+section .slider-img {
+   background: linear-gradient(rgba(24, 127, 238, 0.708),#127df0c7), url(/images/overlay-bg.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 100vh;
+   position: relative;
+   
+
+}
+
+.loma {
+  
+  
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% , -50%);
+
+}
+.slid-img {
+   border-radius: 50%;
+   width: 150px !important;
+   height: 150px !important;
+   
+
+
+}
+
+
+.slider-caption {
+   position: absolute;
+   top: 75%;
+   left: 50%;
+   transform: translate(-50% , -50%);
+   color: white;
+
+}
+
+
+
+
+
+section .blog {
+   background-color:#F5F5F5 ;
+   
+}
+.blog-heading {
+text-align: center;
+padding: 40px;
+ 
+}
+.blog-heading h1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 20px;
+
+}
+.blog-heading p {
+    color: #4E4E4E;
+    position: relative;
+}
+.blog-heading p::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background-color: #0078FF;
+    top: 50px;
+    margin-left: 170px;
+    
+   
+
+}
+
+
+.blog-card {
+  
+}
+
+.imge-buttun::after {
+   content: 'web desgin';
+   background-color: #0078FF;
+   width: 70px;
+   height: 35px;
+   padding: 10px;
+   border-radius: 5px;
+   color: white;
+   margin-left: 150px;
+   
+    top: 20px;
+  
+
+}
+
+
+.blog-imdge {
+   width: 100%;
+   
+}
+
+.blog-card h4 {
+   padding-left: 15px;
+   padding-top: 15px;
+}
+.blog-card .pp {
+   padding-left: 15px;
+}
+
+
+
+
+.blog-content {
+   display: flex;
+   justify-content: space-between;
+  
+}
+
+.img-h5 {
+   display: flex;
+  
+}
+.img-h5 img {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   
+}
+.img-h5 h5 {
+   padding-left: 10px;
+   padding-top: 7px;
+   color: #4E4E4E;
+   font-weight: 400;
+   font-size: 18px;
+
+}
+
+.icon-p {
+   display: flex;
+   color: #4E4E4E;
+
+}
+
+.icon-p i {
+   padding-right: 10px;
+   font-size: 20px;
+   padding-top: 6px;
+   font-weight: 100;
+   color: #4E4E4E;
+}
+
+.icon-p p {
+   padding-right: 10px;
+   padding-top: 4px;
+
+}
+
+
+
+
+.contact {
+
+   background: linear-gradient(rgba(24, 127, 238, 0.708),#127df0c7), url(/images/overlay-bg.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 100vh;
+   position: relative;
+}
+
+.contact-form {
+   background-color: #FFFFFF;
+ padding: 50px 0px;
+   
+  position: absolute;
+   
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% , -50%);
+}
+
+
+
+form {
+   padding-left: 40px;
+   margin: 0 auto;
+   
+ }
+ form h3 {
+   font-size: 30px;
+    padding-bottom: 30px;
+    position: relative;
+ }
+ form h3::before {
+   content: '';
+   position: absolute;
+   width: 120px;
+   height: 3px;
+   background-color: #0078FF;
+   bottom: 15px;
+ }
+
+ form p {
+   font-size: 22px;
+   color: #4E4E4E;
+   font-weight: 100;
+ }
+
+ label, input, textarea {
+   display: block;
+   margin-bottom: 20px;
+   
+ }
+ form input ,textarea {
+   border: 1px solid #c0c3c8c1 ;
+ }
+
+ textarea {
+   resize: vertical;
+ }
+
+ input, textarea {
+   width: 100%;
+   padding: 8px;
+   box-sizing: border-box;
+ }
+
+ .form-button {
+   text-align: center;
+ }
+ button {
+   background-color:#0062D3;
+   color: white;
+   padding: 15px 30px;
+  border: none;
+   cursor: pointer;
+   border-radius: 20px;
+   transition: 0.3s ease;
+ }
+
+ button:hover {
+   background-color: #2E90FF;
+   border: 4px solid #686b6aa2;
+   
+
+ }
+
+ .form-about h3 {
+
+   font-size: 30px;
+   padding-bottom: 30px;
+   position: relative;
+ }
+
+ .form-about h3::before {
+   content: '';
+   position: absolute;
+   width: 120px;
+   height: 3px;
+   background-color: #0078FF;
+   bottom: 15px;
+ }
+
+ .form-about p {
+   font-size: 20px;
+   color: #4E4E4E;
+   font-weight: 100;
+ }
+
+ .form-icon {
+   padding-top: 20px;
+ }
+
+ .icon-num {
+   display: flex;
+   
+   
+ }
+ .icon-num i {
+   margin-right: 20px;
+   color:rgb(79, 77, 77) ;
+   padding-top: 6px;
+ }
+ .icon-num p {
+   font-size: 17px;
+ }
+
+ .form-icons ul {
+  display: flex;
+  
+
+ }
+ .form-icons ul li {
+   list-style: none  ;
+   margin: 15px;
+   
+ }
+ .bg-icon {
+   width: 50px;
+   height: 50px;
+   border: 4px solid #0078FF;
+   border-radius: 50%;
+   text-align: center;
+ }
+ .form-icons ul li i {
+   font-size: 22px;
+   color: #080303;
+   margin-top: 10px;
+
+ }
+ .bg-icon:hover {
+   background-color: #0078FF;
+   border: 4px solid rgba(79, 77, 77, 0.551) ;
+ }
+ .bg-icon:hover i {
+   color: white;
+ }
+
+
+ footer {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   padding:20px;
+   color: white;
+   background-color: #0062D3;
+   
+
+ }
+ footer i {
+   padding-right: 5px;
+   font-size: 15px;
+ }
+ footer p {
+   font-size: 17px;
+ }
+ footer span {
+   font-weight: 700;
+ }
+
+
